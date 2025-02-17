@@ -10,7 +10,7 @@ public class Main {
         double saldoActual; 
 
         // 📌 Crear una cuenta con datos de prueba
-        cuenta1 = new CCuenta("Antonio López", "1000-2365-85-1230456789", 2500, 0); 
+        cuenta1 = new CCuenta("Antonio López ", "1000-2365-85-1230456789", 2500, 0); 
 
         // 📌 Mostrar saldo inicial
         saldoActual = cuenta1.estado(); 
